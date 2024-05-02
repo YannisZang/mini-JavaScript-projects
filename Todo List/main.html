@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <style>
+        #first {
+            color: darkslateblue;
+            font-style: inherit;
+        }
+        #second {
+            font-style: inherit;
+            color: darkslateblue;
+        }
+        #click {
+            background-color: rgb(167, 160, 210);
+            color: rgb(71, 18, 218);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="first">TODO List</h1>
+    <h2 id="second">Items</h2>
+    <div id="items"></div>
+    <input id="itemInput" type="text" placeholder="Add an item"/>
+    <button onclick="addItem()" id="click">Add Item</button>
+    <script src="index.js"></script>
+</body>
+</html>
